@@ -1,6 +1,6 @@
 call plug#begin('~/.vim/plugged')
 
-
+Plug 'tomtom/tcomment_vim'
 Plug 'scrooloose/nerdtree'
 Plug 'w0rp/ale'
 
