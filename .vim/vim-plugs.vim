@@ -19,4 +19,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
 Plug 'maxmellon/vim-jsx-pretty'
 
+"" vim & tmux
+Plug 'christoomey/vim-tmux-navigator'
+
 call plug#end()
