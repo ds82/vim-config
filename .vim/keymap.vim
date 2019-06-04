@@ -8,7 +8,7 @@ nnoremap <C-\> :NERDTreeFind<CR>
 
 
 "" fzf
-nnoremap <C-p> :Files<CR>
+nnoremap <Leader>t :Files<CR>
 nnoremap <Leader>b :Buffers<CR>
 nnoremap <Leader>h :History<CR>
 nnoremap <C-p><C-w> :call fzf#vim#files('.', {'options':'--query '.expand('<cword>')})<CR>
@@ -23,4 +23,8 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
 nnoremap Q :close<CR>
+
+"" ale
+nnoremap <F12> :ALEFindReferences<CR>
+nnoremap <S+F12> :ALEGoToDefinition<CR>
 
